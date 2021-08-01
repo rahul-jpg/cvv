@@ -38,9 +38,9 @@ for (let index = 0; index < arr.length; index++) {
         list.push("+");
       } else if (arr[index].innerHTML == "-") {
         list.push("-");
-      } else if (arr[index].innerHTML == "×") {
+      } else if (arr[index].innerHTML == "*") {
         list.push("*");
-      } else if (arr[index].innerHTML == "÷") {
+      } else if (arr[index].innerHTML == "/") {
         list.push("/");
       } else if (arr[index].innerHTML == ".") {
         list.push(".");
